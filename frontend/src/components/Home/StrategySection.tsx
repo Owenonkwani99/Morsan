@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import strategicImage from "../assets/strategic.jpg";
-import operationalImage from "../assets/operational.jpg";
-import growthImage from "../assets/growth.jpg";
+import strategicImage from "../../assets/strategic.jpg";
+import operationalImage from "../../assets/operational.jpg";
+import growthImage from "../../assets/growth.jpg";
 
 const strategies = [
   {
@@ -102,7 +102,10 @@ const StrategySection = () => {
     strategies[0];
 
   return (
-    <section className="overflow-hidden bg-[#02010D] px-6 py-20 text-white md:py-24 lg:px-12 lg:py-28">
+    <section
+      className="overflow-hidden bg-[#02010D] px-6 py-20 text-white md:py-24 lg:px-12 lg:py-28"
+      data-navbar-theme="dark"
+    >
       <div className="mx-auto max-w-7xl">
         {/* Section label */}
         <div className="flex justify-center">

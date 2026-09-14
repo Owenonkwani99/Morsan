@@ -1,17 +1,17 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import TrackRecordSection from "../components/TrackRecordSection";
-import WhyItWorks from "../components/WhyItWorks";
-import IndustriesSection from "../components/IndustriesSection";
-import AboutSection from "../components/ServicesSection";
-import ImpactSection from "../components/ImpactSection";
-import StrategySection from "../components/StrategySection";
-import TestimonialsSection from "../components/TestimonialsSection";
-import CaseStudiesSection from "../components/CaseStudiesSection";
-import ClientPortfolioSection from "../components/ClientPortfolioSection";
-import FAQSection from "../components/FAQSection";
-import BlogsSection from "../components/BlogsSection";
-import Footer from "../components/Footer";
+import Navbar from "../components/Layout/Navbar";
+import Hero from "../components/Home/Hero";
+import TrackRecordSection from "../components/Home/TrackRecordSection";
+import WhyItWorks from "../components/Home/WhyItWorks";
+import IndustriesSection from "../components/Home/IndustriesSection";
+import AboutSection from "../components/Home/ServicesSection";
+import ImpactSection from "../components/Home/ImpactSection";
+import StrategySection from "../components/Home/StrategySection";
+import TestimonialsSection from "../components/Home/TestimonialsSection";
+import CaseStudiesSection from "../components/Home/CaseStudiesSection";
+import ClientPortfolioSection from "../components/Home/ClientPortfolioSection";
+import FAQSection from "../components/Home/FAQSection";
+import BlogsSection from "../components/Home/BlogsSection";
+import Footer from "../components/Layout/Footer";
 
 
 const Home = () => {

@@ -1,11 +1,11 @@
-import operationalCase from "../assets/casestudies/operationalcase.jpg";
-import homeabout from "../assets/homeabout.jpg";
-import owenImage from "../assets/owen.jpeg";
-import giftImage from "../assets/gift.jpeg";
+import operationalCase from "../../assets/casestudies/operationalcase.jpg";
+import homeabout from "../../assets/homeabout.jpg";
+import owenImage from "../../assets/owen.jpeg";
+import giftImage from "../../assets/gift.jpeg";
 
 const CaseStudiesSection = () => {
   return (
-    <section className="overflow-hidden bg-[#F4EEEE] px-6 pb-28 pt-20 md:pb-32 md:pt-24 lg:px-12 lg:pb-36 lg:pt-28">
+    <section className="overflow-hidden bg-[#F4EEEE] px-6 pb-28 pt-20 md:pb-32 md:pt-24 lg:px-12 lg:pb-36 lg:pt-28" data-navbar-theme="light">
       <div className="mx-auto max-w-7xl">
 
         {/* Section heading */}

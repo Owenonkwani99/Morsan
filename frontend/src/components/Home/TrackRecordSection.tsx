@@ -43,6 +43,7 @@ const TrackRecordStatement = () => {
     <section
       id="track-record-statement"
       className="w-full overflow-hidden bg-white px-6 pt-6 pb-16 md:pt-8 md:pb-20 lg:px-10 lg:pt-8 lg:pb-24"
+      data-navbar-theme="light"
     >
       <div className="mx-auto w-full max-w-6xl">
         <p

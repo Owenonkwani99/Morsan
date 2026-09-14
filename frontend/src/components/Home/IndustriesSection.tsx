@@ -43,7 +43,7 @@ const industries = [
 
 const IndustriesSection = () => {
   return (
-    <section className="bg-[#F4EEEE] px-6 pb-28 pt-20 md:pb-32 md:pt-24 lg:px-12 lg:pb-36 lg:pt-28">
+    <section className="bg-[#F4EEEE] px-6 pb-28 pt-20 md:pb-32 md:pt-24 lg:px-12 lg:pb-36 lg:pt-28" data-navbar-theme="light">
       <div className="mx-auto max-w-7xl">
 
         <div className="grid items-start gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import sandraImage from "../assets/sandramoraa.png";
-import sandramImage from "../assets/sandram.png";
+import sandraImage from "../../assets/sandramoraa.png";
+import sandramImage from "../../assets/sandram.png";
 
 const reasons = [
   {
@@ -60,7 +60,7 @@ const WhyItWorks = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="bg-[#ffff] px-6 py-20 md:py-24 lg:px-15 lg:py-20">
+    <section className="bg-[#ffff] px-6 py-20 md:py-24 lg:px-15 lg:py-20" data-navbar-theme="light">
       <div className="mx-auto max-w-6xl">
         {/* Section label */}
         <span className="inline-flex rounded-full border border-[#C9A227] px-4 py-1.5 text-[12px] font-semibold uppercase tracking-[0.12em] text-[#A8831D]">

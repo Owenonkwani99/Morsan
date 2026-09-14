@@ -1,12 +1,12 @@
-import aspireLendingLogo from "../assets/clientlogos/aspirelendinglogo.png";
-import boltMarketLogo from "../assets/clientlogos/boltmarketlogo.png";
-import buySimuLogo from "../assets/clientlogos/buysimulogo.png";
-import food4EducationLogo from "../assets/clientlogos/food4educationlogo.png";
-import hypaLogo from "../assets/clientlogos/hypalogo.png";
-import kijaniHoldingsLogo from "../assets/clientlogos/kijaniholdingslogog.png";
-import purpinkLogo from "../assets/clientlogos/purpinklogo.png";
-import trailMyCarLogo from "../assets/clientlogos/trailmycarlogo.png";
-import wapiPayLogo from "../assets/clientlogos/wapipaylogo.png";
+import aspireLendingLogo from "../../assets/clientlogos/aspirelendinglogo.png";
+import boltMarketLogo from "../../assets/clientlogos/boltmarketlogo.png";
+import buySimuLogo from "../../assets/clientlogos/buysimulogo.png";
+import food4EducationLogo from "../../assets/clientlogos/food4educationlogo.png";
+import hypaLogo from "../../assets/clientlogos/hypalogo.png";
+import kijaniHoldingsLogo from "../../assets/clientlogos/kijaniholdingslogog.png";
+import purpinkLogo from "../../assets/clientlogos/purpinklogo.png";
+import trailMyCarLogo from "../../assets/clientlogos/trailmycarlogo.png";
+import wapiPayLogo from "../../assets/clientlogos/wapipaylogo.png";
 
 const clients = [
   {
@@ -52,7 +52,7 @@ const clients = [
 
 const ClientPortfolioSection = () => {
   return (
-    <section className="overflow-hidden bg-white py-14 md:py-5">
+    <section className="overflow-hidden bg-white py-14 md:py-5" data-navbar-theme="light">
 
       {/* Moving logos */}
       <div className="relative w-full overflow-hidden">

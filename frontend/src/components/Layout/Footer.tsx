@@ -1,8 +1,8 @@
-import morsanLogo from "../assets/morsan-logo-light.png";
+import morsanLogo from "../../assets/morsan-logo-light.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#02010D] text-white">
+    <footer className="bg-[#02010D] text-white" data-navbar-theme="dark">
       <div className="mx-auto max-w-7xl px-6 pb-5 pt-12 lg:px-12 lg:pt-11">
         {/* Main footer content */}
         <div className="grid gap-12 md:grid-cols-[1fr_1.7fr] md:gap-16 lg:gap-20">

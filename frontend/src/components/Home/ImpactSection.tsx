@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import impactImage from "../assets/impact.jpg";
+import impactImage from "../../assets/impact.jpg";
 
 const ImpactSection = () => {
   const stats = [
@@ -75,6 +75,7 @@ const ImpactSection = () => {
         lg:px-12
         lg:py-28
       "
+      data-navbar-theme="dark"
       style={{
         backgroundImage: `url(${impactImage})`,
       }}

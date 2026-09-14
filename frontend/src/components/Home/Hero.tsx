@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import heroVideo from "../assets/herov.mp4";
+import heroVideo from "../../assets/herov.mp4";
 
 const changingWords = ["Growth", "Impact", "Momentum"];
 
@@ -15,7 +15,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-[80vh] overflow-hidden">
+    <section className="relative min-h-[80vh] overflow-hidden" data-navbar-theme="dark">
       {/* Background video */}
       <video
         className="absolute inset-0 h-full w-full object-cover"
@@ -73,8 +73,7 @@ const Hero = () => {
                 bg-[#C9A227]
                 px-6
                 py-3
-                text-[13px]
-                font-semibold
+                text-[15px]
                 text-white
                 transition-all
                 duration-300
@@ -96,7 +95,7 @@ const Hero = () => {
                 border-white/70
                 px-6
                 py-3
-                text-[12px]
+                text-[14px]
                 font-semibold
                 text-white
                 transition-all

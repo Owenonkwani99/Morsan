@@ -113,7 +113,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="bg-[#F4EEEE] px-6 py-28 md:py-32 lg:px-12 lg:py-36">
+    <section className="bg-[#F4EEEE] px-6 py-28 md:py-32 lg:px-12 lg:py-36" data-navbar-theme="light">
       <div className="mx-auto max-w-7xl">
 
         {/* Section heading */}

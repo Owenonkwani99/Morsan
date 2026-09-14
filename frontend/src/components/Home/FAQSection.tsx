@@ -46,7 +46,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="overflow-hidden bg-[#F4EEEE] px-6 py-20 md:py-24 lg:px-12 lg:py-28">
+    <section className="overflow-hidden bg-[#F4EEEE] px-6 py-20 md:py-24 lg:px-12 lg:py-28" data-navbar-theme="light">
       <div className="mx-auto max-w-6xl">
 
         {/* Section heading */}
