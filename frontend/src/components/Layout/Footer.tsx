@@ -357,7 +357,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="mt-32 border-b border-white/20 pb-5 text-[14px] font-medium text-white/90">
+        <div className="mt-22 border-b border-white/20 pb-5 text-[14px] font-medium text-white/90">
           Copyright © Morsan.Africa, {new Date().getFullYear()}
         </div>
 

@@ -46,6 +46,17 @@ select {
   font-family: "Inter", sans-serif;
 }
 
+article h2,
+article h3,
+article h4,
+article h5,
+article h6,
+article strong,
+article b,
+article .font-medium {
+  color: #1f2933 !important;
+}
+
 @keyframes client-marquee {
   from {
     transform: translateX(0);

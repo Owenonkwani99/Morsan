@@ -4,18 +4,21 @@ import guide from "../../assets/blogs/guide.jpg";
 
 const blogs = [
   {
+    slug: "love",
     image: love,
     title: "Lets talk about love languages ...at work.....",
     description:
       "Okay, hear me out. Your employees have love languages, too. And if you’re not speaking....",
   },
   {
+    slug: "restructuring-hr-hero",
     image: restructure,
     title: "Company Restructuring: How HR Can Be the Hero (Not the Villain)",
     description:
       "Picture this: It’s 7:30 AM on a Monday. The office WhatsApp group is already exploding....",
   },
   {
+    slug: "surviving-njaanuary",
     image: guide,
     title:
       "Surviving Njaanuary: The HR Guide to Getting Your Team Back on Track (Without Losing Your Mind)",
@@ -75,7 +78,7 @@ const BlogsSection = () => {
                 {/* Read more */}
                 <div className="mt-auto pt-6">
                   <a
-                    href="/blogs"
+                    href={`/blogs/${blog.slug}`}
                     className="inline-flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.08em] text-[#C9A227] transition-colors duration-200 hover:text-[#A8831D]"
                   >
                     Read More
