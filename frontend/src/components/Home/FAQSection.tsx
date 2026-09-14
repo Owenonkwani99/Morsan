@@ -197,7 +197,7 @@ const FAQSection = () => {
                         text-[12px]
                         font-semibold
                         leading-[1.5]
-                        text-[#222222]
+                        text-[#1F2933]
                         transition-colors
                         duration-300
                         hover:text-[#C9A227]

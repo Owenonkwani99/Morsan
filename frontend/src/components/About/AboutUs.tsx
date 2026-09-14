@@ -9,7 +9,7 @@ const AboutUs = () => {
       {/* =========================================================
           HERO / INTRODUCTION
       ========================================================== */}
-      <section className="px-6 pb-24 pt-16 md:pb-32 md:pt-20 lg:px-12 lg:pb-36 lg:pt-24" data-navbar-theme="light">
+      <section className="px-6 pb-24 pt-16 md:pb-32 md:pt-20 lg:px-12 lg:pb-36 lg:pt-44" data-navbar-theme="light">
         <div className="mx-auto max-w-7xl">
 
           {/* Main heading */}
