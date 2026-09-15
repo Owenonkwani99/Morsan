@@ -85,7 +85,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="/services"
+              href="/#services"
               className="
                 inline-flex
                 items-center

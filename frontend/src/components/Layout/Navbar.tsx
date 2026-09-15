@@ -8,10 +8,10 @@ const Navbar = () => {
 
   useEffect(() => {
     const navbarOffset = 104;
-    const sections = document.querySelectorAll<HTMLElement>("main section, footer");
+    const themedSections = document.querySelectorAll<HTMLElement>("[data-navbar-theme]");
 
     const updateNavbarTheme = () => {
-      const sectionUnderNavbar = [...sections]
+      const sectionUnderNavbar = [...themedSections]
         .reverse()
         .find((section) => {
           const bounds = section.getBoundingClientRect();
@@ -76,7 +76,7 @@ const Navbar = () => {
           </a>
 
           <a
-            href="/services"
+            href="/#services"
             className={`text-sm font-light transition-colors duration-200 hover:opacity-70 ${navTextClass}`}
           >
             Services

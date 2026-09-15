@@ -30,10 +30,10 @@ const relatedBlogs = [
 
 const VirtualTeamsBlog = () => {
   return (
-    <main className="min-h-screen overflow-hidden bg-[#F8F8F8] text-[#1F2933]">
+    <main className="min-h-screen overflow-hidden bg-[#F8F8F8] text-[#1F2933] [&_h2]:text-[#1F2933] [&_h3]:text-[#1F2933] [&_strong]:text-[#1F2933]" data-navbar-theme="light">
       <section className="px-6 pb-10 pt-14 md:px-10 md:pb-12 md:pt-16 lg:px-12 lg:pt-40">
         <div className="mx-auto max-w-[1500px]">
-          <h1 className="max-w-[900px] text-[38px] font-medium leading-[1.08] tracking-[-0.04em] text-[#1F2933] md:text-[52px] lg:text-[58px]">
+          <h1 className="max-w-[900px] text-[42px] font-medium leading-[1.08] tracking-[-0.04em] text-[#1F2933] md:text-[42px] lg:text-[42px]">
             Leading Virtual High-Performing Teams: What CEOs, Directors, Managers and Team Leaders Need to Know
           </h1>
           <p className="mt-6 max-w-[720px] text-[14px] leading-[1.55] text-[#6F6A6A] md:text-[15px]">

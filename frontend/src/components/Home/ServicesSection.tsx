@@ -113,7 +113,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="bg-[#F4EEEE] px-6 py-28 md:py-32 lg:px-12 lg:py-36" data-navbar-theme="light">
+    <section id="services" className="scroll-mt-24 bg-[#F4EEEE] px-6 py-28 md:py-32 lg:px-12 lg:py-36" data-navbar-theme="light">
       <div className="mx-auto max-w-7xl">
 
         {/* Section heading */}
@@ -190,7 +190,7 @@ const ServicesSection = () => {
 
                 {/* Learn more */}
                 <a
-                  href="/services"
+                  href="/#services"
                   className="
                     mt-7
                     inline-flex

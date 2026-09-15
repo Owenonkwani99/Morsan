@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import Navbar from "../components/Layout/Navbar";
 import Hero from "../components/Home/Hero";
 import TrackRecordSection from "../components/Home/TrackRecordSection";
@@ -15,6 +17,19 @@ import Footer from "../components/Layout/Footer";
 
 
 const Home = () => {
+  useEffect(() => {
+    if (window.location.hash !== "#services") {
+      return;
+    }
+
+    requestAnimationFrame(() => {
+      document.getElementById("services")?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    });
+  }, []);
+
   return (
     <>
       <Navbar />

@@ -144,7 +144,7 @@ const CaseStudiesSection = () => {
 
               {/* Read full story */}
               <a
-                href="/case-studies"
+                href="/case-studies/operational-excellence"
                 className="
                   mt-auto
                   inline-flex

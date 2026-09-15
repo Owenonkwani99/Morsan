@@ -203,6 +203,15 @@ const Footer = () => {
 
                 <li>
                   <a
+                    href="/#services"
+                    className="transition-colors hover:text-[#C9A227]"
+                  >
+                    Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
                     href="/careers"
                     className="transition-colors hover:text-[#C9A227]"
                   >
@@ -225,6 +234,15 @@ const Footer = () => {
                     className="transition-colors hover:text-[#C9A227]"
                   >
                     Blogs
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/contact"
+                    className="transition-colors hover:text-[#C9A227]"
+                  >
+                    Contact Us
                   </a>
                 </li>
               </ul>
@@ -275,7 +293,7 @@ const Footer = () => {
               <div className="mt-5 space-y-4 text-[14px] text-white/90">
                 {/* Phone */}
                 <a
-                  href="tel:+254729562107"
+                  href="tel:+254796470580"
                   className="
                     flex
                     items-center
@@ -296,7 +314,7 @@ const Footer = () => {
                     </svg>
                   </span>
 
-                  <span>+254 729 562 107</span>
+                  <span>+254 796 470 580</span>
                 </a>
 
                 {/* Email */}
@@ -349,7 +367,14 @@ const Footer = () => {
                     </svg>
                   </span>
 
-                  <span>Nairobi garage, Westlands.</span>
+                  <a
+                    href="https://www.google.com/maps/place/2129+Office+Suites/@-1.2702237,36.8114399,16z/data=!3m1!4b1!4m6!3m5!1s0x182f173c07089ac0:0xdbaf6fb62dcfef96!8m2!3d-1.2702237!4d36.8114399!16s%2Fg%2F11k3d97_yq?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="transition-colors hover:text-[#C9A227]"
+                  >
+                    2129 Office Suites, 69 Muthithi Rd, Nairobi
+                  </a>
                 </div>
               </div>
             </div>

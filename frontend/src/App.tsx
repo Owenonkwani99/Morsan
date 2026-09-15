@@ -17,6 +17,10 @@ import SkillsBasedHiringBlogPage from "./pages/SkillsBasedHiringBlog";
 import CommonInterviewQuestionsBlogPage from "./pages/CommonInterviewQuestionsBlog";
 import HrReviewBlogPage from "./pages/HrReviewBlog";
 import BlogArticle from "./pages/BlogArticle";
+import CaseStudies from "./pages/CaseStudies";
+import CaseStudy from "./pages/CaseStudy";
+import Contact from "./pages/Contact";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -25,6 +29,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/careers" element={<Careers />} />
+        <Route path="/case-studies" element={<CaseStudies />} />
+        <Route path="/case-studies/:slug" element={<CaseStudy />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/love" element={<LoveBlogPage />} />
         <Route

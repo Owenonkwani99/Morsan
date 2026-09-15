@@ -94,9 +94,9 @@ const BlogArticle = () => {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen bg-[#F8F8F8] px-6 pb-28 pt-36 text-[#1F2933] md:px-10 lg:px-12">
+      <main className="min-h-screen bg-[#F8F8F8] px-6 pb-28 pt-36 text-[#1F2933] md:px-10 lg:px-12" data-navbar-theme="light">
         <article className="mx-auto max-w-[940px]">
-          <h1 className="max-w-[760px] text-[38px] font-medium leading-[1.08] tracking-[-0.04em] md:text-[52px]">
+          <h1 className="max-w-[760px] text-[42px] font-medium leading-[1.08] tracking-[-0.04em] text-[#1F2933] md:text-[42px] lg:text-[42px]">
             {article.title}
           </h1>
           <p className="mt-6 max-w-[720px] text-[15px] leading-[1.55] text-[#6F6A6A]">
