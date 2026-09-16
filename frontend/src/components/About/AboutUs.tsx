@@ -20,7 +20,7 @@ const AboutUs = () => {
                 font-semibold
                 leading-[1.02]
                 tracking-[-0.045em]
-                text-[#1F2933]
+                text-[#001C43]
                 sm:text-6xl
                 md:text-[68px]
                 lg:text-[72px]
@@ -56,7 +56,7 @@ const AboutUs = () => {
                   text-[15px]
                   font-semibold
                   leading-[1.55]
-                  text-[#1F2933]
+                  text-[#001C43]
                   md:text-[18px]
                 "
               >
@@ -224,7 +224,7 @@ const AboutUs = () => {
                   font-semibold
                   leading-[1.08]
                   tracking-[-0.04em]
-                  text-[#1F2933]
+                  text-[#001C43]
                   md:text-[44px]
                   lg:text-[46px]
                 "
@@ -259,7 +259,7 @@ const AboutUs = () => {
                   className="
                     text-[14px]
                     font-semibold
-                    text-[#1F2933]
+                    text-[#001C43]
                     md:text-[15px]
                   "
                 >
@@ -417,7 +417,7 @@ const AboutUs = () => {
       {/* =========================================================
           OUR FOUNDATION
       ========================================================== */}
-      <section className="bg-[#F4EEEE] px-6 py-24 md:py-28 lg:px-12" data-navbar-theme="light">
+      <section className="bg-[#F0F4F8] px-6 py-24 md:py-28 lg:px-12" data-navbar-theme="light">
         <div className="mx-auto max-w-7xl">
 
           <div className="max-w-[650px]">
@@ -447,7 +447,7 @@ const AboutUs = () => {
                 font-semibold
                 leading-[1.1]
                 tracking-[-0.04em]
-                text-[#1F2933]
+                text-[#001C43]
                 md:text-[46px]
               "
             >
@@ -495,7 +495,7 @@ const AboutUs = () => {
                 key={value.title}
                 className="
                   border-t
-                  border-[#1F2933]/15
+                  border-[#001C43]/15
                   pt-5
                 "
               >
@@ -503,7 +503,7 @@ const AboutUs = () => {
                   className="
                     text-[16px]
                     font-semibold
-                    text-[#1F2933]
+                    text-[#001C43]
                   "
                 >
                   {value.title}

@@ -95,8 +95,8 @@ const ImpactSection = () => {
           h-32
           bg-gradient-to-b
           from-transparent
-          via-[#02010D]/70
-          to-[#02010D]
+          via-[#001C43]/70
+          to-[#001C43]
           md:h-40
           lg:h-48
         "

@@ -70,7 +70,7 @@ const TrackRecordStatement = () => {
             );
 
             const startColor = [165, 165, 165]; // light gray
-            const endColor = [31, 41, 51]; // #1F2933
+            const endColor = [31, 41, 51]; // #001C43
 
             const red = Math.round(
               startColor[0] +

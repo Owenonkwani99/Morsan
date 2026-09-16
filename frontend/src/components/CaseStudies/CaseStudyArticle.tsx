@@ -19,7 +19,7 @@ const CaseStudyArticle = ({ caseStudy }: CaseStudyArticleProps) => {
         </div>
 
         <header className="mt-8 max-w-[760px]">
-          <h1 className="text-[48px] font-medium leading-[0.98] tracking-[-0.055em] text-[#1F2933] md:text-[42px]">
+          <h1 className="text-[48px] font-medium leading-[0.98] tracking-[-0.055em] text-[#001C43] md:text-[42px]">
             {caseStudy.slug === "food-4-education" ? (
               <>More Meals. Lower Costs.<br />Greater Impact.</>
             ) : (
@@ -55,7 +55,7 @@ const CaseStudyArticle = ({ caseStudy }: CaseStudyArticleProps) => {
             const [label, ...rest] = paragraph.split(" - ");
             return (
               <p key={paragraph}>
-                {rest.length > 0 ? <strong className="text-[#1F2933]">{label} - </strong> : null}
+                {rest.length > 0 ? <strong className="text-[#001C43]">{label} - </strong> : null}
                 {rest.length > 0 ? rest.join(" - ") : paragraph}
               </p>
             );
@@ -63,14 +63,14 @@ const CaseStudyArticle = ({ caseStudy }: CaseStudyArticleProps) => {
         </div>
 
         <blockquote className="mt-12 max-w-[730px] bg-white px-7 py-7 md:px-9 md:py-8">
-          <p className="text-[21px] font-medium leading-[1.25] tracking-[-0.025em] text-[#1F2933] md:text-[24px]">
+          <p className="text-[21px] font-medium leading-[1.25] tracking-[-0.025em] text-[#001C43] md:text-[24px]">
             &quot;{caseStudy.quote}&quot;
           </p>
           <footer className="mt-7 flex items-center gap-3 text-[12px] text-[#666] md:text-[13px]">
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#D6B77A] font-semibold text-[#1F2933]">
+            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#D6B77A] font-semibold text-[#001C43]">
               {caseStudy.quoteName.split(" ").map((part) => part[0]).join("")}
             </span>
-            <span><strong className="block text-[#1F2933]">{caseStudy.quoteName}</strong>{caseStudy.quoteRole}</span>
+            <span><strong className="block text-[#001C43]">{caseStudy.quoteName}</strong>{caseStudy.quoteRole}</span>
           </footer>
         </blockquote>
 

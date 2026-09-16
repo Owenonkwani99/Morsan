@@ -103,7 +103,7 @@ const StrategySection = () => {
 
   return (
     <section
-      className="overflow-hidden bg-[#02010D] px-6 py-20 text-white md:py-24 lg:px-12 lg:py-28"
+      className="overflow-hidden bg-[#001C43] px-6 py-20 text-white md:py-24 lg:px-12 lg:py-28"
       data-navbar-theme="dark"
     >
       <div className="mx-auto max-w-7xl">

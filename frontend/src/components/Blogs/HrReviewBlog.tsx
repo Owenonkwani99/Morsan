@@ -30,10 +30,10 @@ const relatedBlogs = [
 
 const HrReviewBlog = () => {
   return (
-    <main className="min-h-screen overflow-hidden bg-[#F8F8F8] text-[#1F2933] [&_h2]:text-[#1F2933] [&_h3]:text-[#1F2933] [&_strong]:text-[#1F2933]" data-navbar-theme="light">
+    <main className="min-h-screen overflow-hidden bg-[#F8F8F8] text-[#001C43] [&_h2]:text-[#001C43] [&_h3]:text-[#001C43] [&_strong]:text-[#001C43]" data-navbar-theme="light">
       <section className="px-6 pb-10 pt-14 md:px-10 md:pb-12 md:pt-16 lg:px-12 lg:pt-40">
         <div className="mx-auto max-w-[1500px]">
-          <h1 className="max-w-[900px] text-[42px] font-medium leading-[1.08] tracking-[-0.04em] text-[#1F2933] md:text-[42px] lg:text-[42px]">
+          <h1 className="max-w-[900px] text-[42px] font-medium leading-[1.08] tracking-[-0.04em] text-[#001C43] md:text-[42px] lg:text-[42px]">
             2024 in Review: What We Learned and What&apos;s Next for HR in 2025
           </h1>
           <p className="mt-6 max-w-[720px] text-[14px] leading-[1.55] text-[#6F6A6A] md:text-[15px]">
@@ -221,15 +221,15 @@ const HrReviewBlog = () => {
         </div>
       </section>
 
-      <section className="overflow-hidden bg-[#F4EEEE] px-6 pb-20 pt-16 md:px-10 md:pb-28 md:pt-20 lg:px-12 lg:pb-32 lg:pt-24">
+      <section className="overflow-hidden bg-[#F0F4F8] px-6 pb-20 pt-16 md:px-10 md:pb-28 md:pt-20 lg:px-12 lg:pb-32 lg:pt-24">
         <div className="mx-auto max-w-[1500px]">
-          <h2 className="mt-5 text-[42px] font-semibold leading-[1.05] tracking-[-0.04em] text-[#1F2933]">You also might like</h2>
+          <h2 className="mt-5 text-[42px] font-semibold leading-[1.05] tracking-[-0.04em] text-[#001C43]">You also might like</h2>
           <div className="mt-14 grid gap-8 md:grid-cols-3 md:gap-6 lg:mt-16 lg:gap-8">
             {relatedBlogs.map((blog) => (
               <article key={blog.slug} className="group flex h-full flex-col overflow-hidden rounded-[3px] bg-white">
                 <div className="aspect-[4/3] overflow-hidden"><img src={blog.image} alt={blog.title} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" /></div>
                 <div className="flex flex-1 flex-col px-6 py-7">
-                  <h3 className="text-[19px] font-bold leading-[1.25] tracking-[-0.02em] text-[#1F2933]">{blog.title}</h3>
+                  <h3 className="text-[19px] font-bold leading-[1.25] tracking-[-0.02em] text-[#001C43]">{blog.title}</h3>
                   <p className="mt-4 text-[13px] leading-[1.7] text-[#777171]">{blog.description}</p>
                   <div className="mt-auto pt-6"><a href={`/blogs/${blog.slug}`} className="inline-flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.08em] text-[#C9A227] transition-colors duration-200 hover:text-[#A8831D]">Read More <span className="text-[15px] transition-transform duration-200 group-hover:translate-x-1">→</span></a></div>
                 </div>

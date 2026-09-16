@@ -3,7 +3,7 @@ import { caseStudies } from "../../data/caseStudies";
 const CaseStudies = () => {
   return (
     <section
-      className="overflow-hidden bg-[#F4EEEE] px-6 pb-24 pt-32 md:pb-32 md:pt-40 lg:px-12"
+      className="overflow-hidden bg-[#F0F4F8] px-6 pb-24 pt-32 md:pb-32 md:pt-40 lg:px-12"
       data-navbar-theme="light"
     >
       <div className="mx-auto max-w-7xl">
@@ -35,7 +35,7 @@ const CaseStudies = () => {
               font-semibold
               leading-[1.05]
               tracking-[-0.045em]
-              text-[#1F2933]
+              text-[#001C43]
               md:text-[62px]
             "
           >

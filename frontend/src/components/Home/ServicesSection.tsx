@@ -2,7 +2,7 @@ const services = [
   {
     title: "HR Strategy & Advisory",
     description:
-      "Ongoing and project-based advisory for leadership teams on people matters.",
+      "Practical HR guidance that aligns people strategy with business goals, helping leadership teams make better workforce decisions and build stronger organizational structures.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ const services = [
   {
     title: "Recruitment & Talent Acquisition",
     description:
-      "End-to-end hiring, from role scoping to offer management.",
+      "End-to-end recruitment support that helps organizations define the right roles, attract qualified talent, assess candidates effectively, and make confident hiring decisions.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ const services = [
   {
     title: "Compensation & Benefits Design",
     description:
-      "Job evaluation, grading, salary structuring, and COLA reviews.",
+      "Structured compensation solutions covering job evaluation, grading, salary frameworks, benefits, and cost-of-living reviews to support fairness, competitiveness, and sustainable workforce costs.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ const services = [
   {
     title: "HR Policy & SOP Development",
     description:
-      "Policy libraries grounded in the Kenyan Employment Act.",
+      "Clear, practical HR policies and standard operating procedures that establish consistent ways of working, strengthen compliance, and give both managers and employees greater clarity.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ const services = [
   {
     title: "Performance & Disciplinary Management",
     description:
-      "Frameworks and processes that protect employer and employee.",
+      "Structured performance and disciplinary frameworks that promote accountability, address performance gaps fairly, and provide clear processes for managing employee relations.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@ const services = [
   {
     title: "Payroll & HR Administration",
     description:
-      "Payroll accuracy and statutory compliance support.",
+      "Reliable payroll and HR administration support covering payroll processes, employee records, statutory requirements, and the day-to-day systems that keep workforce operations accurate and compliant.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +113,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="scroll-mt-24 bg-[#F4EEEE] px-6 py-28 md:py-32 lg:px-12 lg:py-36" data-navbar-theme="light">
+    <section id="services" className="scroll-mt-24 bg-[#F0F4F8] px-6 py-28 md:py-32 lg:px-12 lg:py-36" data-navbar-theme="light">
       <div className="mx-auto max-w-7xl">
 
         {/* Section heading */}
@@ -123,7 +123,7 @@ const ServicesSection = () => {
             Services
           </span>
 
-          <h2 className="mt-7 text-4xl font-semibold leading-[1.08] tracking-[-0.04em] text-[#1F2933] md:text-[42px]">
+          <h2 className="mt-7 text-4xl font-semibold leading-[1.08] tracking-[-0.04em] text-[#001C43] md:text-[42px]">
             Innovative solutions for
             <br />
             real world challenges
@@ -167,7 +167,7 @@ const ServicesSection = () => {
                   items-center
                   justify-center
                   bg-[#F7F5F2]
-                  text-[#1F2933]
+                  text-[#001C43]
                   transition-colors
                   duration-300
                   group-hover:bg-[#C9A227]
@@ -180,7 +180,7 @@ const ServicesSection = () => {
               {/* Content */}
               <div className="mt-10">
 
-                <h3 className="text-[18px] font-semibold leading-[1.3] tracking-[-0.015em] text-[#1F2933]">
+                <h3 className="text-[18px] font-semibold leading-[1.3] tracking-[-0.015em] text-[#001C43]">
                   {service.title}
                 </h3>
 
@@ -205,7 +205,7 @@ const ServicesSection = () => {
                   "
                 >
                   <span className="h-px w-6 bg-[#C9A227]" />
-                  Learn more
+                  
                 </a>
 
               </div>

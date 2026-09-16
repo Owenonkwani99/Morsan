@@ -72,7 +72,7 @@ const ClientPortfolioSection = () => {
                 <img
                   src={client.logo}
                   alt={client.name}
-                  className={`w-auto object-contain brightness-0 opacity-80 transition-all duration-300 hover:brightness-100 hover:opacity-100 ${
+                  className={`w-auto object-contain transition-opacity duration-300 ${
                     client.large
                       ? "max-h-16 max-w-[190px]"
                       : "max-h-12 max-w-[150px]"
@@ -92,7 +92,7 @@ const ClientPortfolioSection = () => {
                 <img
                   src={client.logo}
                   alt={client.name}
-                  className={`w-auto object-contain brightness-0 opacity-80 transition-all duration-300 hover:brightness-100 hover:opacity-100 ${
+                  className={`w-auto object-contain transition-opacity duration-300 ${
                     client.large
                       ? "max-h-16 max-w-[190px]"
                       : "max-h-12 max-w-[150px]"

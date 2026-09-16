@@ -29,7 +29,7 @@ const blogs = [
 
 const BlogsSection = () => {
   return (
-    <section className="overflow-hidden bg-[#F4EEEE] px-6 py-20 md:py-24 lg:px-12 lg:py-28" data-navbar-theme="light">
+    <section className="overflow-hidden bg-[#F0F4F8] px-6 py-20 md:py-24 lg:px-12 lg:py-28" data-navbar-theme="light">
       <div className="mx-auto max-w-6xl">
         {/* Section heading */}
         <div className="mx-auto max-w-[650px] text-center">
@@ -37,7 +37,7 @@ const BlogsSection = () => {
             Our Blog
           </span>
 
-          <h2 className="mt-5 text-[34px] font-semibold leading-[1.05] tracking-[-0.04em] text-[#1F2933] md:text-[42px]">
+          <h2 className="mt-5 text-[34px] font-semibold leading-[1.05] tracking-[-0.04em] text-[#001C43] md:text-[42px]">
             Insights that help your
             <br />
             business move forward.
@@ -67,7 +67,7 @@ const BlogsSection = () => {
 
               {/* Content */}
               <div className="flex flex-1 flex-col px-6 py-7">
-                <h3 className="text-[19px] font-bold leading-[1.25] tracking-[-0.02em] text-[#1F2933]">
+                <h3 className="text-[19px] font-bold leading-[1.25] tracking-[-0.02em] text-[#001C43]">
                   {blog.title}
                 </h3>
 

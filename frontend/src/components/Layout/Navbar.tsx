@@ -4,6 +4,7 @@ import lightLogo from "../../assets/morsan-logo-light.png";
 import darkLogo from "../../assets/morsan-logo-dark.png";
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
   const [isLightBackground, setIsLightBackground] = useState(false);
 
   useEffect(() => {
@@ -11,6 +12,8 @@ const Navbar = () => {
     const themedSections = document.querySelectorAll<HTMLElement>("[data-navbar-theme]");
 
     const updateNavbarTheme = () => {
+      setIsScrolled(window.scrollY > 12);
+
       const sectionUnderNavbar = [...themedSections]
         .reverse()
         .find((section) => {
@@ -33,11 +36,19 @@ const Navbar = () => {
     };
   }, []);
 
-  const navTextClass = isLightBackground ? "text-[#1F2933]" : "text-white";
+  const hasWhiteBackground = isScrolled || isLightBackground;
+  const navTextClass = hasWhiteBackground ? "text-[#001C43]" : "text-white";
+  const navBackgroundClass = hasWhiteBackground
+    ? "bg-white shadow-[0_1px_0_rgba(0,28,67,0.08)]"
+    : "bg-transparent";
 
   return (
-    <header className="fixed left-0 right-0 top-0 z-50">
-      <nav className="mx-auto flex max-w-7xl items-center px-6 py-3 lg:px-2">
+    <header
+      className={`fixed left-0 right-0 top-0 z-50 transition-[background-color,box-shadow] duration-500 ease-in-out ${navBackgroundClass}`}
+    >
+      <nav
+        className="mx-auto flex max-w-7xl items-center px-6 py-3 lg:px-2"
+      >
         {/* Logo */}
         <a href="/" className="flex shrink-0 items-center">
           <span className="relative block h-20 w-[132px]">
@@ -45,7 +56,7 @@ const Navbar = () => {
               src={lightLogo}
               alt="Morsan Africa"
               className={`absolute inset-0 h-20 w-auto transition-opacity duration-200 ${
-                isLightBackground ? "opacity-0" : "opacity-100"
+                hasWhiteBackground ? "opacity-0" : "opacity-100"
               }`}
             />
             <img
@@ -53,7 +64,7 @@ const Navbar = () => {
               alt=""
               aria-hidden="true"
               className={`absolute left-0 top-1/2 h-10 w-auto -translate-y-1/2 transition-opacity duration-200 ${
-                isLightBackground ? "opacity-100" : "opacity-0"
+                hasWhiteBackground ? "opacity-100" : "opacity-0"
               }`}
             />
           </span>
@@ -62,7 +73,7 @@ const Navbar = () => {
         {/* Divider */}
         <div
           className={`ml-8 hidden h-10 w-px transition-colors duration-200 md:block ${
-            isLightBackground ? "bg-[#1F2933]/40" : "bg-white/40"
+            hasWhiteBackground ? "bg-[#001C43]/40" : "bg-white/40"
           }`}
         />
 
@@ -136,17 +147,17 @@ const Navbar = () => {
         >
           <span
             className={`h-0.5 w-6 transition-colors duration-200 ${
-              isLightBackground ? "bg-[#1F2933]" : "bg-white"
+              hasWhiteBackground ? "bg-[#001C43]" : "bg-white"
             }`}
           />
           <span
             className={`h-0.5 w-6 transition-colors duration-200 ${
-              isLightBackground ? "bg-[#1F2933]" : "bg-white"
+              hasWhiteBackground ? "bg-[#001C43]" : "bg-white"
             }`}
           />
           <span
             className={`h-0.5 w-6 transition-colors duration-200 ${
-              isLightBackground ? "bg-[#1F2933]" : "bg-white"
+              hasWhiteBackground ? "bg-[#001C43]" : "bg-white"
             }`}
           />
         </button>

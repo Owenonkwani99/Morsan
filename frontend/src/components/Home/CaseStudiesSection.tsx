@@ -5,7 +5,7 @@ import giftImage from "../../assets/gift.jpeg";
 
 const CaseStudiesSection = () => {
   return (
-    <section className="overflow-hidden bg-[#F4EEEE] px-6 pb-28 pt-20 md:pb-32 md:pt-24 lg:px-12 lg:pb-36 lg:pt-28" data-navbar-theme="light">
+    <section className="overflow-hidden bg-[#F0F4F8] px-6 pb-28 pt-20 md:pb-32 md:pt-24 lg:px-12 lg:pb-36 lg:pt-28" data-navbar-theme="light">
       <div className="mx-auto max-w-7xl">
 
         {/* Section heading */}
@@ -36,7 +36,7 @@ const CaseStudiesSection = () => {
               font-semibold
               leading-[1.08]
               tracking-[-0.04em]
-              text-[#1F2933]
+              text-[#001C43]
               md:text-[42px]
             "
           >
@@ -221,7 +221,7 @@ const CaseStudiesSection = () => {
                   className="
                     text-[14px]
                     font-semibold
-                    text-[#1F2933]
+                    text-[#001C43]
                     md:text-[20px]
                   "
                 >
@@ -338,7 +338,7 @@ const CaseStudiesSection = () => {
                 font-semibold
                 leading-[1.12]
                 tracking-[-0.035em]
-                text-[#1F2933]
+                text-[#001C43]
                 md:text-[42px]
               "
             >

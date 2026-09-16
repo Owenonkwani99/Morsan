@@ -69,7 +69,7 @@ const WhyItWorks = () => {
 
         {/* Introductory content */}
         <div className="mt-8 grid gap-8 md:grid-cols-2 md:gap-16 lg:mt-9 lg:gap-28">
-          <h2 className="max-w-xl text-3xl font-medium leading-[1.12] tracking-[-0.045em] text-[#1F2933] md:text-4xl lg:text-[42px]">
+          <h2 className="max-w-xl text-3xl font-medium leading-[1.12] tracking-[-0.045em] text-[#001C43] md:text-4xl lg:text-[42px]">
             You don't need more advice. You need a plan that actually works.
           </h2>
 
@@ -99,7 +99,7 @@ const WhyItWorks = () => {
                     className="flex w-full items-center justify-between py-4 text-left"
                     aria-expanded={isActive}
                   >
-                    <span className="text-xl font-semibold tracking-[-0.02em] text-[#1F2933] md:text-[21px]">
+                    <span className="text-xl font-semibold tracking-[-0.02em] text-[#001C43] md:text-[21px]">
                       {reason.title}
                     </span>
 
@@ -173,7 +173,7 @@ const WhyItWorks = () => {
                 />
 
                 <div>
-                <p className="text-[15px] font-semibold leading-tight text-[#1F2933]">
+                <p className="text-[15px] font-semibold leading-tight text-[#001C43]">
                     Sandra Moraa
                 </p>
 

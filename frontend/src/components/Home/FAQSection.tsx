@@ -46,7 +46,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="overflow-hidden bg-[#F4EEEE] px-6 py-20 md:py-24 lg:px-12 lg:py-28" data-navbar-theme="light">
+    <section className="overflow-hidden bg-[#F0F4F8] px-6 py-20 md:py-24 lg:px-12 lg:py-28" data-navbar-theme="light">
       <div className="mx-auto max-w-6xl">
 
         {/* Section heading */}
@@ -83,7 +83,7 @@ const FAQSection = () => {
                 font-semibold
                 leading-[1.05]
                 tracking-[-0.04em]
-                text-[#1F2933]
+                text-[#001C43]
                 md:text-[42px]
                 lg:text-[48px]
               "
@@ -197,7 +197,7 @@ const FAQSection = () => {
                         text-[12px]
                         font-semibold
                         leading-[1.5]
-                        text-[#1F2933]
+                        text-[#001C43]
                         transition-colors
                         duration-300
                         hover:text-[#C9A227]

@@ -30,10 +30,10 @@ const relatedBlogs = [
 
 const VirtualTeamsBlog = () => {
   return (
-    <main className="min-h-screen overflow-hidden bg-[#F8F8F8] text-[#1F2933] [&_h2]:text-[#1F2933] [&_h3]:text-[#1F2933] [&_strong]:text-[#1F2933]" data-navbar-theme="light">
+    <main className="min-h-screen overflow-hidden bg-[#F8F8F8] text-[#001C43] [&_h2]:text-[#001C43] [&_h3]:text-[#001C43] [&_strong]:text-[#001C43]" data-navbar-theme="light">
       <section className="px-6 pb-10 pt-14 md:px-10 md:pb-12 md:pt-16 lg:px-12 lg:pt-40">
         <div className="mx-auto max-w-[1500px]">
-          <h1 className="max-w-[900px] text-[42px] font-medium leading-[1.08] tracking-[-0.04em] text-[#1F2933] md:text-[42px] lg:text-[42px]">
+          <h1 className="max-w-[900px] text-[42px] font-medium leading-[1.08] tracking-[-0.04em] text-[#001C43] md:text-[42px] lg:text-[42px]">
             Leading Virtual High-Performing Teams: What CEOs, Directors, Managers and Team Leaders Need to Know
           </h1>
           <p className="mt-6 max-w-[720px] text-[14px] leading-[1.55] text-[#6F6A6A] md:text-[15px]">
@@ -213,10 +213,10 @@ const VirtualTeamsBlog = () => {
         </div>
       </section>
 
-      <section className="overflow-hidden bg-[#F4EEEE] px-6 pb-20 pt-16 md:px-10 md:pb-28 md:pt-20 lg:px-12 lg:pb-32 lg:pt-24">
+      <section className="overflow-hidden bg-[#F0F4F8] px-6 pb-20 pt-16 md:px-10 md:pb-28 md:pt-20 lg:px-12 lg:pb-32 lg:pt-24">
         <div className="mx-auto max-w-[1500px]">
           <div className="max-w-[650px] text-left">
-            <h2 className="mt-5 text-[42px] font-semibold leading-[1.05] tracking-[-0.04em] text-[#1F2933] md:text-[42px]">
+            <h2 className="mt-5 text-[42px] font-semibold leading-[1.05] tracking-[-0.04em] text-[#001C43] md:text-[42px]">
               You also might like
             </h2>
           </div>
@@ -236,7 +236,7 @@ const VirtualTeamsBlog = () => {
                 </div>
 
                 <div className="flex flex-1 flex-col px-6 py-7">
-                  <h3 className="text-[19px] font-bold leading-[1.25] tracking-[-0.02em] text-[#1F2933]">
+                  <h3 className="text-[19px] font-bold leading-[1.25] tracking-[-0.02em] text-[#001C43]">
                     {blog.title}
                   </h3>
 

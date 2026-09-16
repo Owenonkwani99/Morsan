@@ -60,7 +60,7 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <section className="overflow-hidden bg-[#F4EEEE] px-6 py-20 md:py-24 lg:px-12 lg:py-28" data-navbar-theme="light">
+    <section className="overflow-hidden bg-[#F0F4F8] px-6 py-20 md:py-24 lg:px-12 lg:py-28" data-navbar-theme="light">
       <div className="mx-auto max-w-7xl">
 
         {/* Heading */}
@@ -91,7 +91,7 @@ const TestimonialsSection = () => {
               font-semibold
               leading-[1.08]
               tracking-[-0.04em]
-              text-[#1F2933]
+              text-[#001C43]
               md:text-[42px]
             "
           >
@@ -165,7 +165,7 @@ const TestimonialsSection = () => {
                   <div className="mt-auto pt-7">
                     <div className="mb-4 h-px w-full bg-[#E7E2DE]" />
 
-                    <p className="text-[18px] font-semibold text-[#1F2933]">
+                    <p className="text-[18px] font-semibold text-[#001C43]">
                       {testimonial.name}
                     </p>
 

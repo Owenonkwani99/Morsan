@@ -3,8 +3,10 @@
 @import "tailwindcss";
 
 :root {
+  --morsan-navy: #001c43;
+  --morsan-ink: #001c43;
   font-family: "Inter", sans-serif;
-  color: #1f2933;
+  color: var(--morsan-ink);
   background: #f5f1e8;
   font-synthesis: none;
   text-rendering: optimizeLegibility;

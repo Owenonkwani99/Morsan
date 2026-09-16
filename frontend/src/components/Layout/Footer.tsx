@@ -2,7 +2,7 @@ import morsanLogo from "../../assets/morsan-logo-light.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#02010D] text-white" data-navbar-theme="dark">
+    <footer className="bg-[#001C43] text-white" data-navbar-theme="dark">
       <div className="mx-auto max-w-7xl px-6 pb-5 pt-12 lg:px-12 lg:pt-11">
         {/* Main footer content */}
         <div className="grid gap-12 md:grid-cols-[1fr_1.7fr] md:gap-16 lg:gap-20">
@@ -35,7 +35,7 @@ const Footer = () => {
                 py-3
                 text-[13px]
                 font-medium
-                text-[#111111]
+                text-[#001C43]
                 transition-all
                 duration-300
                 hover:gap-4
@@ -66,7 +66,7 @@ const Footer = () => {
                   transition-all
                   duration-300
                   hover:bg-[#C9A227]
-                  hover:text-[#02010D]
+                  hover:text-[#001C43]
                 "
               >
                 <svg
@@ -118,7 +118,7 @@ const Footer = () => {
                   transition-all
                   duration-300
                   hover:bg-[#C9A227]
-                  hover:text-[#02010D]
+                  hover:text-[#001C43]
                 "
               >
                 <svg
@@ -149,7 +149,7 @@ const Footer = () => {
                   transition-all
                   duration-300
                   hover:bg-[#C9A227]
-                  hover:text-[#02010D]
+                  hover:text-[#001C43]
                 "
               >
                 <svg

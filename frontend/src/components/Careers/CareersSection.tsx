@@ -191,7 +191,7 @@ const CareersSection = () => {
 
   return (
     <section
-      className="overflow-hidden bg-[#F4EEEE] px-6 py-20 md:py-24 lg:px-12 lg:py-37"
+      className="overflow-hidden bg-[#F0F4F8] px-6 py-20 md:py-24 lg:px-12 lg:py-37"
       data-navbar-theme="light"
     >
       <div className="mx-auto max-w-9xl">
@@ -227,7 +227,7 @@ const CareersSection = () => {
               font-semibold
               leading-[1.05]
               tracking-[-0.045em]
-              text-[#1F2933]
+              text-[#001C43]
               md:text-[42px]
             "
           >
@@ -275,7 +275,7 @@ const CareersSection = () => {
                       font-semibold
                       leading-[1.3]
                       tracking-[-0.02em]
-                      text-[#1F2933]
+                      text-[#001C43]
                     "
                   >
                     {job.title}
@@ -290,7 +290,7 @@ const CareersSection = () => {
                       items-center
                       gap-4
                       rounded-[4px]
-                      bg-[#1F2933]
+                      bg-[#001C43]
                       px-5
                       py-3
                       text-[13px]
@@ -325,14 +325,14 @@ const CareersSection = () => {
                       key={tag}
                       className="
                         rounded-full
-                        bg-[#F4EEEE]
+                        bg-[#F0F4F8]
                         px-4
                         py-2.5
                         text-[10px]
                         font-semibold
                         uppercase
                         tracking-[0.13em]
-                        text-[#1F2933]
+                        text-[#001C43]
                       "
                     >
                       {tag}

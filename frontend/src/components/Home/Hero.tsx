@@ -70,7 +70,7 @@ const Hero = () => {
                 items-center
                 gap-3
                 rounded-[5px]
-                bg-[#C9A227]
+                bg-[#001C43]
                 px-6
                 py-3
                 text-[15px]
@@ -103,7 +103,7 @@ const Hero = () => {
                 hover:gap-4
                 hover:border-white
                 hover:bg-white
-                hover:text-[#1F2933]
+                hover:text-[#001C43]
               "
             >
               <span>View Services</span>

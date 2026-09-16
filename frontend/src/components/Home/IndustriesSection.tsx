@@ -43,7 +43,7 @@ const industries = [
 
 const IndustriesSection = () => {
   return (
-    <section className="bg-[#F4EEEE] px-6 pb-28 pt-20 md:pb-32 md:pt-24 lg:px-12 lg:pb-36 lg:pt-28" data-navbar-theme="light">
+    <section className="bg-[#F0F4F8] px-6 pb-28 pt-20 md:pb-32 md:pt-24 lg:px-12 lg:pb-36 lg:pt-28" data-navbar-theme="light">
       <div className="mx-auto max-w-7xl">
 
         <div className="grid items-start gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
@@ -80,7 +80,7 @@ const IndustriesSection = () => {
                 font-semibold
                 leading-[1.08]
                 tracking-[-0.04em]
-                text-[#1F2933]
+                text-[#001C43]
                 md:text-[42px]
               "
             >
@@ -168,7 +168,7 @@ const IndustriesSection = () => {
                     font-semibold
                     leading-[1.3]
                     tracking-[-0.015em]
-                    text-[#1F2933]
+                    text-[#001C43]
                   "
                 >
                   {industry.title}
