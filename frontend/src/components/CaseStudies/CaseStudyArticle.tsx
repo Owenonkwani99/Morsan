@@ -20,7 +20,11 @@ const CaseStudyArticle = ({ caseStudy }: CaseStudyArticleProps) => {
 
         <header className="mt-8 max-w-[760px]">
           <h1 className="text-[48px] font-medium leading-[0.98] tracking-[-0.055em] text-[#1F2933] md:text-[42px]">
-            {caseStudy.title}
+            {caseStudy.slug === "food-4-education" ? (
+              <>More Meals. Lower Costs.<br />Greater Impact.</>
+            ) : (
+              caseStudy.title
+            )}
           </h1>
           <div className="mt-6 flex flex-wrap gap-x-4 gap-y-2 text-[13px] text-[#555] md:text-[14px]">
             <span>{caseStudy.date}</span>

@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
             <h1 className="text-[42px] font-semibold leading-[1.05] tracking-[-0.04em] text-[#1F2933]">
               Privacy Policy
             </h1>
-            <p className="mt-3 text-[12px] text-[#62676B]">Feb 18, 2026</p>
+            <p className="mt-3 text-[12px] text-[#62676B]">Feb, 2026</p>
           </header>
 
           <div className="mt-12 space-y-5 text-[13px] leading-[1.55] text-[#555B60] md:text-[14px]">
@@ -59,7 +59,7 @@ const PrivacyPolicy = () => {
               <li>Withdraw consent at any time</li>
               <li>Lodge a complaint with a data protection authority</li>
             </ul>
-            <p>To exercise these rights, email us at: <a className="text-[#C9A227] underline underline-offset-2" href="mailto:info@morsan.africa.co.ke">info@morsan.africa.co.ke</a></p>
+            <p>To exercise these rights, email us at: <a className="text-[#C9A227] underline underline-offset-2" href="mailto:info@morsan.africa">info@morsan.africa</a></p>
 
             <p>
               <strong className="text-[#1F2933]">8. Data Security</strong> We implement industry-standard security measures to protect your information. However, no method of transmission over the internet is 100% secure.
@@ -76,11 +76,11 @@ const PrivacyPolicy = () => {
             <p>
               <strong className="text-[#1F2933]">11. Contact Us</strong> If you have any questions about this Privacy Policy, please reach out:
               <br />
-              <a className="text-[#C9A227] underline underline-offset-2" href="mailto:info@morsan.africa.co.ke">info@morsan.africa.co.ke</a>
+              <a className="text-[#C9A227] underline underline-offset-2" href="mailto:info@morsan.africa">info@morsan.africa</a>
               <span className="mx-2 text-[#B0B0B0]">|</span>
               +254 796 470 580
               <span className="mx-2 text-[#B0B0B0]">|</span>
-              2129 Office Suites, 69 Muthithi Rd, Nairobi
+              2129 Office Suites, 69 Muthithi Rd, Nairobi, Westlands
             </p>
           </div>
         </article>

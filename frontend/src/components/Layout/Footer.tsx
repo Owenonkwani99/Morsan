@@ -50,7 +50,7 @@ const Footer = () => {
             <div className="mt-11 flex items-center gap-3">
               {/* Instagram */}
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/morsan_consulting_group/"
                 aria-label="Instagram"
                 className="
                   flex
@@ -100,9 +100,40 @@ const Footer = () => {
                 </svg>
               </a>
 
+              {/* Facebook */}
+              <a
+                href="https://www.facebook.com/morsanhr/"
+                aria-label="Facebook"
+                className="
+                  flex
+                  h-10
+                  w-10
+                  items-center
+                  justify-center
+                  rounded-full
+                  border
+                  border-[#C9A227]
+                  bg-transparent
+                  text-[#C9A227]
+                  transition-all
+                  duration-300
+                  hover:bg-[#C9A227]
+                  hover:text-[#02010D]
+                "
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="h-[18px] w-[18px]"
+                  aria-hidden="true"
+                >
+                  <path d="M13.5 21v-8h2.75l.4-3h-3.15V8.08c0-.87.24-1.46 1.5-1.46h1.76V3.94c-.31-.04-1.38-.14-2.62-.14-2.59 0-4.36 1.58-4.36 4.49V10H7v3h2.78v8h3.72Z" />
+                </svg>
+              </a>
+
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/company/morsan-consulting-group/home/"
                 aria-label="LinkedIn"
                 className="
                   flex
@@ -132,7 +163,7 @@ const Footer = () => {
               </a>
 
               {/* X */}
-              <a
+              {/* <a
                 href="https://x.com/"
                 aria-label="X"
                 className="
@@ -160,7 +191,7 @@ const Footer = () => {
                 >
                   <path d="M5.2 4h3.65l3.45 4.7L16.3 4h2.5l-5.35 6.05L19.2 20h-3.65l-3.9-5.3L6.7 20H4.2l5.65-6.65L5.2 4Zm3.02 1.9H8.1l6.55 12.2h.12L8.22 5.9Z" />
                 </svg>
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -215,7 +246,7 @@ const Footer = () => {
                     href="/careers"
                     className="transition-colors hover:text-[#C9A227]"
                   >
-                    Careers &amp; Culture
+                    Careers
                   </a>
                 </li>
 
@@ -319,7 +350,7 @@ const Footer = () => {
 
                 {/* Email */}
                 <a
-                  href="mailto:info@morsan.africa.co.ke"
+                  href="mailto:info@morsan.africa"
                   className="
                     flex
                     items-center
@@ -348,7 +379,7 @@ const Footer = () => {
                   </span>
 
                   <span className="break-words">
-                    info@morsan.africa.co.ke
+                    info@morsan.africa
                   </span>
                 </a>
 
@@ -373,7 +404,7 @@ const Footer = () => {
                     rel="noreferrer"
                     className="transition-colors hover:text-[#C9A227]"
                   >
-                    2129 Office Suites, 69 Muthithi Rd, Nairobi
+                    2129 Office Suites, 69 Muthithi Rd, Nairobi, Westlands
                   </a>
                 </div>
               </div>

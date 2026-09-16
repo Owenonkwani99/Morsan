@@ -58,13 +58,13 @@ const Contact = () => {
                     <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#EDE9E7] text-[#1F2933]" aria-hidden="true">↗</span>
                     +254 796 470 580
                   </a>
-                  <a className="flex items-center gap-3 transition-colors hover:text-[#C9A227]" href="mailto:info@morsan.africa.co.ke">
+                  <a className="flex items-center gap-3 transition-colors hover:text-[#C9A227]" href="mailto:info@morsan.africa">
                     <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#EDE9E7] text-[#1F2933]" aria-hidden="true">@</span>
-                    info@morsan.africa.co.ke
+                    info@morsan.africa
                   </a>
                   <a className="flex max-w-[360px] items-start gap-3 transition-colors hover:text-[#C9A227]" href={officeMapUrl} target="_blank" rel="noreferrer">
                     <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#EDE9E7] text-[#1F2933]" aria-hidden="true">⌖</span>
-                    <span>2129 Office Suites, 69 Muthithi Rd, Nairobi</span>
+                    <span>2129 Office Suites, 69 Muthithi Rd, Nairobi, Westlands</span>
                   </a>
                 </div>
 
@@ -85,7 +85,7 @@ const Contact = () => {
                     rel="noreferrer"
                     className="flex items-center justify-between bg-white px-4 py-3 text-[12px] font-semibold text-[#1F2933] transition-colors hover:text-[#C9A227]"
                 >
-                    <span>2129 Office Suites, 69 Muthithi Rd, Nairobi</span>
+                    <span>2129 Office Suites, 69 Muthithi Rd, Nairobi, Westlands</span>
                     <span>Open in Google Maps ↗</span>
                 </a>
                 </div>

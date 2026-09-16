@@ -44,7 +44,7 @@ export const caseStudies: CaseStudy[] = [
     image: automotiveCase,
     category: "Automotive Industry",
     client: "Precision Automotive",
-    title: "Putting People and Performance in Gear",
+    title: "From Workshop Chaos to Operational Control",
     description:
       "A focused people and operations approach helped Precision Automotive build clearer systems, stronger accountability, and room to grow.",
     date: "Feb 12, 2026",
@@ -66,7 +66,7 @@ export const caseStudies: CaseStudy[] = [
     image: foodCase,
     category: "Food & Social Impact",
     client: "Food 4 Education",
-    title: "Making Nutritious Meals More Accessible",
+    title: "More Meals. Lower Costs. Greater Impact.",
     description:
       "Strengthening the model behind affordable school meals so more children can access nourishing food at a lower price.",
     date: "Jan 20, 2026",

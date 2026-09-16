@@ -13,6 +13,28 @@ import instant from "../../assets/blogs/instant.jpg";
 
 const blogs = [
   {
+    slug: "surviving-njaanuary",
+    image: guide,
+    title:
+      "Surviving Njaanuary: The HR Guide to Getting Your Team Back on Track",
+    description:
+      "Ah, January. The month where your employees' New Year's resolutions meet the harsh reality of returning to work.",
+  },
+  {
+    slug: "onboarding-programs",
+    image: onboarding,
+    title: "Why Most Onboarding Programs Fail (And What to Do Instead)",
+    description:
+      "Introduction: Let’s face it—many onboarding programs look good on paper but flop in practice. New employees need more than paperwork and introductions.",
+  },
+  {
+    slug: "workplace-culture",
+    image: hr,
+    title: "Is Your Culture Working For or Against You?",
+    description:
+      "Company culture can be a double-edged sword. HR’s role in shaping company culture can determine whether it becomes a strength that drives performance or a barrier to growth.",
+  },
+  {
     slug: "love",
     image: love,
     title: "Let's Talk About Love Languages... At Work",
@@ -28,26 +50,11 @@ const blogs = [
       "Picture this: it's 7:30 AM on a Monday. The office WhatsApp group is already exploding. Here's how HR can help organizations navigate restructuring.",
   },
   {
-    slug: "surviving-njaanuary",
-    image: guide,
-    title:
-      "Surviving Njaanuary: The HR Guide to Getting Your Team Back on Track",
-    description:
-      "Ah, January. The month where your employees' New Year's resolutions meet the harsh reality of returning to work.",
-  },
-  {
     slug: "future-of-recruitment",
     image: recruitment,
     title: "The Future of Recruitment: What SMEs Need to Know",
     description:
       "The job market is evolving at a rapid pace, and SMEs need to understand what these changes mean for how they attract, assess, and hire talent.",
-  },
-  {
-    slug: "onboarding-programs",
-    image: onboarding,
-    title: "Why Most Onboarding Programs Fail (And What to Do Instead)",
-    description:
-      "Introduction: Let’s face it—many onboarding programs look good on paper but flop in practice. New employees need more than paperwork and introductions.",
   },
   {
     slug: "skills-based-hiring",
@@ -80,13 +87,6 @@ const blogs = [
       "How to Nail the First 30 Days as a New Employee: A Step-by-Step Roadmap",
     description:
       "How to Nail the First 30 Days as a New Employee A Step-by-Step Roadmap starting with the right mindset, relationships, priorities, and habits.",
-  },
-  {
-    slug: "workplace-culture",
-    image: hr,
-    title: "Is Your Culture Working For or Against You?",
-    description:
-      "Company culture can be a double-edged sword. HR’s role in shaping company culture can determine whether it becomes a strength that drives performance or a barrier to growth.",
   },
   {
     slug: "virtual-high-performing-teams",
@@ -123,8 +123,7 @@ const Blogs = () => {
           </h2>
 
           <p className="mx-auto mt-5 max-w-[540px] text-[15px] leading-[1.7] text-[#777171]">
-            Practical insights, ideas, and perspectives on people, leadership,
-            and building better businesses.
+            Practical insights, ideas, and perspectives on people, leadership, processes, organizational structure, and building <br />better businesses.
           </p>
         </div>
 

@@ -66,7 +66,7 @@ const HrReviewBlog = () => {
           <article className="min-w-0 max-w-[680px] text-[15px] leading-[1.65] text-[#555050] md:text-[15px]">
             <p className="mb-8">
               As the year wraps up, we find ourselves reflecting on all the
-              highs, the challenges, and everything in between. At <a href="https://morsanhr.co.ke/about-us/" className="text-[#C9A227] underline underline-offset-2">Morsan HR Consulting</a>, we&apos;re grateful for the incredible opportunities we&apos;ve had to partner with businesses like yours to help shape stronger workplaces. We&apos;ve seen so much change in the HR world over the past year, and we&apos;re ready to dive into 2025 with fresh insights and renewed energy!
+              highs, the challenges, and everything in between. At <a href="https://morsanhr.africa/about-us/" className="text-[#C9A227] underline underline-offset-2">Morsan HR Consulting</a>, we&apos;re grateful for the incredible opportunities we&apos;ve had to partner with businesses like yours to help shape stronger workplaces. We&apos;ve seen so much change in the HR world over the past year, and we&apos;re ready to dive into 2025 with fresh insights and renewed energy!
             </p>
             <p className="mb-8">
               Before we turn the page to the new year, let&apos;s take a moment

@@ -3,10 +3,10 @@ import impactImage from "../../assets/impact.jpg";
 
 const ImpactSection = () => {
   const stats = [
-    { value: 12, suffix: "+", label: "Consultants on the Morsan team" },
-    { value: 9, suffix: "+", label: "Active client engagements" },
-    { value: 600, suffix: "+", label: "Labour-outsourced staff supported" },
-    { value: 2, suffix: "", label: "Service lines: HR & Business Consulting" },
+    { value: 100, suffix: "+", label: "Completed Projects" },
+    { value: 20, suffix: "+", label: "Industries Supported" },
+    { value: 700, suffix: "+", label: "Labour-outsourced staff" },
+    { value: 10, suffix: "", label: "Service lines: HR, Business & Finance" },
   ];
 
   const [counts, setCounts] = useState(stats.map(() => 0));
@@ -14,7 +14,7 @@ const ImpactSection = () => {
   const sectionRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
-    const section = sectionRef.current;
+    const section = sectionRef.current; 
 
     if (!section) return;
 

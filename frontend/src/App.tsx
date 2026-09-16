@@ -21,6 +21,7 @@ import CaseStudies from "./pages/CaseStudies";
 import CaseStudy from "./pages/CaseStudy";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/case-studies/:slug" element={<CaseStudy />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/terms" element={<TermsConditions />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/love" element={<LoveBlogPage />} />
         <Route

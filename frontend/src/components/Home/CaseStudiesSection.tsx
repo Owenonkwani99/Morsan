@@ -357,7 +357,7 @@ const CaseStudiesSection = () => {
                 md:text-[16px]
               "
             >
-              Morsan Africa is a consulting firm helping organizations
+              Morsan Consulting Group is a business advisory firm helping organizations
               strengthen their people, operations, and business performance.
               We work alongside leadership teams to understand the real
               challenges behind the numbers, then develop practical solutions

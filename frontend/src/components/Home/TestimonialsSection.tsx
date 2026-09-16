@@ -4,26 +4,26 @@ const testimonials = [
   {
     quote:
       "As Broadwalk Residency, we’ve had a great experience with Morsan HR since 2023. Their professionalism, attention to detail, and genuine care for our team have truly stood out. They handle our concerns promptly and efficiently. Highly recommended!",
-    name: "Faith Weusi",
+    name: "Faith Wausi",
     role: "Manager, Broadwalk Residency",
   },
   {
     quote:
       "Great and professional advice. We've enjoyed a strong, ongoing partnership for years, and their consistency and support have been outstanding. Keep it up!",
-    name: "Jason Mburi",
-    role: "CEO, Car Pockets",
+    name: "Jason Mbari",
+    role: "Director, Kapu Digital Limited",
   },
-  {
-    quote:
-      "They are true professionals with an excellent executive recruitment team that understands both client needs and candidate potential. Their approach is efficient, thoughtful, and results-driven.",
-    name: "Samson Oduor",
-    role: "HR Advisory Client",
-  },
+  // {
+  //   quote:
+  //     "They are true professionals with an excellent executive recruitment team that understands both client needs and candidate potential. Their approach is efficient, thoughtful, and results-driven.",
+  //   name: "Samson Oduor",
+  //   role: "HR Advisory Client",
+  // },
   {
     quote:
       "Morsan HR was incredibly professional and supportive in helping me secure a job that matches my skills and goals. Their team understood my needs and guided me through the process efficiently. I’m truly grateful for their help!",
     name: "Yvonne Nyokabi",
-    role: "HR Advisory Client",
+    role: "Recruitment Client",
   },
 ];
 

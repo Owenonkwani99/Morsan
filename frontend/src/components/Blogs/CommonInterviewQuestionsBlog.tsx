@@ -68,7 +68,7 @@ const CommonInterviewQuestionsBlog = () => {
               What Are Common HR Interview Questions?
             </h2>
             <p className="mb-8">
-              The hiring process is a crucial step for both <a href="https://morsanhr.co.ke/services/recruitment-management/" className="text-[#C9A227] underline underline-offset-2">employers</a> and job seekers. Whether you&apos;re preparing for an upcoming interview or conducting one, understanding the common HR interview questions can help you navigate the process smoothly. HR professionals ask these questions to assess candidates&apos; qualifications, skills, and cultural fit within the organization. Below, we explore some of the most frequently asked HR interview questions and how to approach them.
+              The hiring process is a crucial step for both <a href="https://morsanhr.africa/services/recruitment-management/" className="text-[#C9A227] underline underline-offset-2">employers</a> and job seekers. Whether you&apos;re preparing for an upcoming interview or conducting one, understanding the common HR interview questions can help you navigate the process smoothly. HR professionals ask these questions to assess candidates&apos; qualifications, skills, and cultural fit within the organization. Below, we explore some of the most frequently asked HR interview questions and how to approach them.
             </p>
 
             <h2 className="mb-6 text-[17px] font-bold leading-[1.3] text-[#292929]">

@@ -9,12 +9,12 @@ const faqs: FAQ[] = [
   {
     question: "What types of organizations do you work with?",
     answer:
-      "Morsan Consulting Group works with startups, SMEs, and multi-entity groups across sectors including fintech, lending, real estate, retail, education, and holding groups.",
+      "Morsan Consulting Group works with startups, SMEs, and multi-entity groups across sectors including fintech, lending, , manufacturing, Hospitality, real estate, retail, education, and holding groups.",
   },
   {
     question: "What services does Morsan Consulting Group provide?",
     answer:
-      "Morsan delivers through two connected practices: Human Resource Consulting and Business Consulting. Services include HR strategy, recruitment, compensation and benefits, policy and SOP development, performance management, payroll, HR audits, outsourcing, organizational design, growth strategy, change management, corporate governance, business processes, and strategic reporting.",
+      "Morsan provides integrated advisory across Human Resources, Business Strategy, Operations, Accounting, and Finance. We support organizations with strategic planning, organizational design, growth and change management, business process improvement, governance, accounting, financial management, HR advisory, and workforce solutions — connecting people, performance, and business priorities.",
   },
   {
     question: "How does your consulting approach work?",
@@ -22,9 +22,9 @@ const faqs: FAQ[] = [
       "Our engagements follow a four-stage approach: Diagnose, Design, Deploy, and Sustain. We first understand the organization's current state, build the required frameworks and structures, hand over practical working tools with training, and remain engaged where ongoing advisory or reviews are needed.",
   },
   {
-    question: "Do you only provide HR consulting?",
+    question: "When should a business bring in Morsan?",
     answer:
-      "No. Morsan has expanded from its founding HR practice into a full-spectrum consulting firm. Alongside Human Resource Consulting, we provide Business Consulting covering organizational design, growth strategy, change management, governance, business processes, strategic reporting, and workplace culture.",
+      "Businesses typically engage us when they are navigating growth, operational challenges, organizational change, or decisions that require greater structure and clarity. We help leadership teams understand what needs to change and put the right systems in place to move forward.",
   },
   {
     question: "What makes Morsan different from a traditional consulting firm?",
@@ -34,7 +34,7 @@ const faqs: FAQ[] = [
   {
     question: "Do you work with organizations outside Kenya?",
     answer:
-      "Yes. Morsan has extended its consulting work beyond Kenya, including delivering compensation and workforce frameworks for organizations expanding into Uganda. Our approach is designed to adapt to the operating context of organizations across Africa.",
+      "Yes. Morsan works with organizations across Kenya and the wider East African region, supporting businesses with practical advisory across people, operations, strategy, accounting, and finance. Our approach is designed to adapt to the different operating contexts of organizations across the region.",
   },
 ];
 

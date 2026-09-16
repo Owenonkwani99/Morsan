@@ -46,9 +46,9 @@ const strategies = [
     ),
     points: [
       {
-        title: "Process Improvement",
+        title: "HR Advisory",
         description:
-          "Streamlined workflows designed to improve efficiency and reduce unnecessary complexity.",
+          "Practical HR guidance that strengthens people management, workplace policies, and employee experience.",
       },
       {
         title: "Performance Management",

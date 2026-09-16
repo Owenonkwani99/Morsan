@@ -1,29 +1,29 @@
-import love from "../../assets/blogs/love.jpg";
-import restructure from "../../assets/blogs/restructure.jpg";
+import onboarding from "../../assets/blogs/onboarding.jpg";
+import hr from "../../assets/blogs/hr.jpg";
 import guide from "../../assets/blogs/guide.jpg";
 
 const blogs = [
-  {
-    slug: "love",
-    image: love,
-    title: "Lets talk about love languages ...at work.....",
-    description:
-      "Okay, hear me out. Your employees have love languages, too. And if you’re not speaking....",
-  },
-  {
-    slug: "restructuring-hr-hero",
-    image: restructure,
-    title: "Company Restructuring: How HR Can Be the Hero (Not the Villain)",
-    description:
-      "Picture this: It’s 7:30 AM on a Monday. The office WhatsApp group is already exploding....",
-  },
-  {
+   {
     slug: "surviving-njaanuary",
     image: guide,
     title:
-      "Surviving Njaanuary: The HR Guide to Getting Your Team Back on Track (Without Losing Your Mind)",
+      "Surviving Njaanuary: The HR Guide to Getting Your Team Back on Track",
     description:
-      "Ah, January. The month where your employees’ New Year’s resolutions meet the harsh reality of....",
+      "Ah, January. The month where your employees' New Year's resolutions meet the harsh reality of returning to work.",
+  },
+  {
+    slug: "onboarding-programs",
+    image: onboarding,
+    title: "Why Most Onboarding Programs Fail (And What to Do Instead)",
+    description:
+      "Introduction: Let’s face it—many onboarding programs look good on paper but flop in practice. New employees need more than paperwork and introductions.",
+  },
+  {
+    slug: "workplace-culture",
+    image: hr,
+    title: "Is Your Culture Working For or Against You?",
+    description:
+      "Company culture can be a double-edged sword. HR’s role in shaping company culture can determine whether it becomes a strength that drives performance or a barrier to growth.",
   },
 ];
 
