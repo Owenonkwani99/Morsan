@@ -35,9 +35,9 @@ const industries = [
       "Flexible consulting support for businesses building their foundations and preparing to scale.",
   },
   {
-    title: "Multi-Entity Groups",
+    title: "Hospitality",
     description:
-      "Connected HR and business consulting across multiple companies and operating structures.",
+      "HR and business consulting tailored to the people, operations, and service demands of the hospitality industry.",
   },
 ];
 

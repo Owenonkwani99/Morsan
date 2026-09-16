@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const trackRecordText =
-  "Morsan has worked with startups, SMEs, and multi-entity groups spanning fintech, lending, real estate, retail, education, and holdings across Kenya and Uganda, from single-project deliverables to ongoing retained advisory.";
+  "Morsan has worked with startups, SMEs, and multi-entity groups spanning fintech, lending, hospitality, manufacturing, real estate, retail, education, and holdings across East Africa, from single-project deliverables to ongoing retained advisory.";
 
 const TrackRecordStatement = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
