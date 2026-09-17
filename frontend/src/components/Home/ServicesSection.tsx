@@ -1,117 +1,70 @@
+import { useState } from "react";
+import AccountTreeIcon from "@mui/icons-material/AccountTree";
+import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+import CorporateFareIcon from "@mui/icons-material/CorporateFare";
+import GavelIcon from "@mui/icons-material/Gavel";
+import TrackChangesIcon from "@mui/icons-material/TrackChanges";
+import TrendingUpIcon from "@mui/icons-material/TrendingUp";
+
 const services = [
   {
     title: "HR Strategy & Advisory",
     description:
-      "Practical HR guidance that aligns people strategy with business goals, helping leadership teams make better workforce decisions and build stronger organizational structures.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        className="h-6 w-6"
-      >
-        <circle cx="12" cy="12" r="8.5" />
-        <circle cx="12" cy="12" r="4" />
-        <path d="M12 3.5V6M20.5 12H18M12 20.5V18M3.5 12H6" />
-      </svg>
-    ),
+      "Practical HR guidance aligned with your business goals and workforce needs.",
+    details:
+      "We help leadership teams shape people strategies, strengthen workforce planning, improve employee structures, and make informed decisions that support long-term organizational performance and growth.",
+    icon: <TrackChangesIcon />,
   },
+
   {
-    title: "Recruitment & Talent Acquisition",
+    title: "Business Strategy & Growth",
     description:
-      "End-to-end recruitment support that helps organizations define the right roles, attract qualified talent, assess candidates effectively, and make confident hiring decisions.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        className="h-6 w-6"
-      >
-        <path d="M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-        <path d="M3.5 20a5.5 5.5 0 0 1 11 0" />
-        <path d="M16 8h5M18.5 5.5v5" />
-      </svg>
-    ),
+      "Strategic support to clarify priorities and turn growth goals into action.",
+    details:
+      "We work with organizations to assess opportunities, clarify strategic priorities, strengthen their market position, and develop practical growth plans that connect business objectives with measurable action and sustainable results.",
+    icon: <TrendingUpIcon />,
   },
+
   {
-    title: "Compensation & Benefits Design",
+    title: "Accounting & Financial Advisory",
     description:
-      "Structured compensation solutions covering job evaluation, grading, salary frameworks, benefits, and cost-of-living reviews to support fairness, competitiveness, and sustainable workforce costs.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        className="h-6 w-6"
-      >
-        <circle cx="12" cy="12" r="8.5" />
-        <path d="M12 7v10M15 9.5c0-1.1-1.3-2-3-2s-3 .9-3 2 1.3 2 3 2 3 .9 3 2-1.3 2-3 2-3-.9-3-2" />
-      </svg>
-    ),
+      "Financial support that improves visibility and strengthens business decisions.",
+    details:
+      "Our support covers accounting, financial reporting, budgeting, analysis, and planning, helping leadership teams understand financial performance, manage resources effectively, and make better-informed business decisions.",
+    icon: <AttachMoneyIcon />,
   },
+
   {
-    title: "HR Policy & SOP Development",
+    title: "Operations & Process Improvement",
     description:
-      "Clear, practical HR policies and standard operating procedures that establish consistent ways of working, strengthen compliance, and give both managers and employees greater clarity.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        className="h-6 w-6"
-      >
-        <path d="M6 3.5h9l3 3V20.5H6z" />
-        <path d="M15 3.5v4h3M9 11h6M9 14h6M9 17h4" />
-      </svg>
-    ),
+      "Smarter processes and workflows that improve efficiency and accountability.",
+    details:
+      "We review how work gets done across the organization, identify bottlenecks and inefficiencies, and improve processes, workflows, and operating structures to create more consistent, efficient, and accountable day-to-day operations.",
+    icon: <AccountTreeIcon />,
   },
+
   {
-    title: "Performance & Disciplinary Management",
+    title: "Organizational Design & Structure",
     description:
-      "Structured performance and disciplinary frameworks that promote accountability, address performance gaps fairly, and provide clear processes for managing employee relations.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        className="h-6 w-6"
-      >
-        <path d="M12 3.5 19 6v5.5c0 4.5-2.9 7.8-7 9-4.1-1.2-7-4.5-7-9V6z" />
-        <path d="m9 12 2 2 4-4" />
-      </svg>
-    ),
+      "Clearer roles, reporting lines, and decision-making across the organization.",
+    details:
+      "We design practical organizational structures that clarify roles, responsibilities, reporting lines, and decision-making, helping leadership teams improve coordination, reduce overlaps, and create stronger accountability across the business.",
+    icon: <CorporateFareIcon />,
   },
+
   {
-    title: "Payroll & HR Administration",
+    title: "Corporate Governance & Compliance",
     description:
-      "Reliable payroll and HR administration support covering payroll processes, employee records, statutory requirements, and the day-to-day systems that keep workforce operations accurate and compliant.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        className="h-6 w-6"
-      >
-        <rect x="4" y="5" width="16" height="14" rx="1.5" />
-        <path d="M7 9h10M7 13h3M14 13h3M7 16h6" />
-      </svg>
-    ),
+      "Governance frameworks that strengthen oversight and manage organizational risk.",
+    details:
+      "We help organizations establish practical governance and compliance frameworks that clarify accountability, strengthen oversight, improve internal controls, manage organizational risk, and support responsible and sustainable business operations.",
+    icon: <GavelIcon />,
   },
 ];
 
 const ServicesSection = () => {
+  const [selectedService, setSelectedService] = useState<(typeof services)[number] | null>(null);
+
   return (
     <section id="services" className="scroll-mt-24 bg-[#F0F4F8] px-6 py-28 md:py-32 lg:px-12 lg:py-36" data-navbar-theme="light">
       <div className="mx-auto max-w-7xl">
@@ -123,9 +76,9 @@ const ServicesSection = () => {
             Services
           </span>
 
-          <h2 className="mt-7 text-4xl font-semibold leading-[1.08] tracking-[-0.04em] text-[#001C43] md:text-[42px]">
-            Innovative solutions for
-            <br />
+          <h2 className="mt-7 text-3xl font-semibold leading-[1.08] tracking-[-0.04em] text-[#001C43] sm:text-4xl md:text-[42px]">
+            Innovative solutions for 
+            <br className="hidden sm:block" />
             real world challenges
           </h2>
 
@@ -189,8 +142,9 @@ const ServicesSection = () => {
                 </p>
 
                 {/* Learn more */}
-                <a
-                  href="/#services"
+                <button
+                  type="button"
+                  onClick={() => setSelectedService(service)}
                   className="
                     mt-7
                     inline-flex
@@ -201,12 +155,12 @@ const ServicesSection = () => {
                     text-[#C9A227]
                     transition-all
                     duration-300
-                    hover:gap-3
+                    hover:gap-4
                   "
                 >
                   <span className="h-px w-6 bg-[#C9A227]" />
-                  
-                </a>
+                  Learn More
+                </button>
 
               </div>
             </div>
@@ -214,6 +168,41 @@ const ServicesSection = () => {
 
         </div>
       </div>
+
+      {selectedService && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-[#001C43]/55 px-6 py-8"
+          role="presentation"
+          onClick={() => setSelectedService(null)}
+        >
+          <div
+            className="relative w-full max-w-lg bg-white p-8 shadow-[0_18px_60px_rgba(0,0,0,0.2)] sm:p-10"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="service-modal-title"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={() => setSelectedService(null)}
+              className="absolute right-5 top-5 text-2xl leading-none text-[#666666] transition-colors hover:text-[#001C43]"
+              aria-label="Close service details"
+            >
+              &times;
+            </button>
+
+            <span className="text-[12px] font-semibold uppercase tracking-[0.16em] text-[#C9A227]">
+              Service Details
+            </span>
+            <h3 id="service-modal-title" className="mt-4 pr-8 text-2xl font-semibold leading-tight text-[#001C43]">
+              {selectedService.title}
+            </h3>
+            <p className="mt-5 text-[15px] leading-[1.7] text-[#666666]">
+              {selectedService.details}
+            </p>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

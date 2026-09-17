@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 import strategicImage from "../../assets/strategic.jpg";
 import operationalImage from "../../assets/operational.jpg";
@@ -342,17 +343,7 @@ const StrategySection = () => {
               >
                 <span>Let's Work Together</span>
 
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  className="h-4 w-4"
-                >
-                  <path d="M5 12h14" />
-                  <path d="m13 6 6 6-6 6" />
-                </svg>
+                <ArrowForwardIcon className="h-4 w-4" />
               </a>
             </div>
           </div>
@@ -420,17 +411,7 @@ const StrategySection = () => {
             >
               <span>Book a Consultation</span>
 
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                className="h-3.5 w-3.5"
-              >
-                <path d="M5 12h14" />
-                <path d="m13 6 6 6-6 6" />
-              </svg>
+              <ArrowForwardIcon className="h-3.5 w-3.5" />
             </a>
           </div>
         </div>

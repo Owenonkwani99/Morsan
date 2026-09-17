@@ -1,4 +1,6 @@
 import { useState } from "react";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const testimonials = [
   {
@@ -87,7 +89,7 @@ const TestimonialsSection = () => {
           <h2
             className="
               mt-6
-              text-3xl
+              text-[30px]
               font-semibold
               leading-[1.08]
               tracking-[-0.04em]
@@ -96,7 +98,7 @@ const TestimonialsSection = () => {
             "
           >
             What Our Clients Say
-            <br />
+            <br className="hidden sm:block" />
             About Working With Us
           </h2>
         </div>
@@ -107,13 +109,13 @@ const TestimonialsSection = () => {
             className="
               flex
               items-stretch
-              gap-5
+              gap-0
               transition-transform
               duration-500
               ease-in-out
             "
             style={{
-              transform: `translateX(calc(24% - ${activeIndex * 54}%))`,
+              transform: `translateX(-${activeIndex * 100}%)`,
             }}
             onTransitionEnd={handleTransitionEnd}
           >
@@ -121,8 +123,8 @@ const TestimonialsSection = () => {
               <article
                 key={`${testimonial.name}-${index}`}
                 className="
-                  w-[52%]
-                  min-w-[52%]
+                  w-full
+                  min-w-full
                   shrink-0
                   bg-white
                   px-6
@@ -208,17 +210,7 @@ const TestimonialsSection = () => {
               hover:bg-[#A8831D]
             "
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              className="h-3 w-3"
-            >
-              <path d="M19 12H5" />
-              <path d="m11 18-6-6 6-6" />
-            </svg>
+            <ArrowBackIcon className="h-3 w-3" />
           </button>
 
           {/* Next */}
@@ -240,17 +232,7 @@ const TestimonialsSection = () => {
               hover:bg-[#A8831D]
             "
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              className="h-3 w-3"
-            >
-              <path d="M5 12h14" />
-              <path d="m13 6 6 6-6 6" />
-            </svg>
+            <ArrowForwardIcon className="h-3 w-3" />
           </button>
         </div>
       </div>

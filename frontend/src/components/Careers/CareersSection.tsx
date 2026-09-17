@@ -1,4 +1,6 @@
 import { useState } from "react";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 interface Job {
   title: string;
@@ -304,17 +306,7 @@ const CareersSection = () => {
                   >
                     <span>Apply</span>
 
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      className="h-4.5 w-4.5"
-                    >
-                      <path d="M5 12h14" />
-                      <path d="m13 6 6 6-6 6" />
-                    </svg>
+                    <ArrowForwardIcon className="h-4.5 w-4.5" />
                   </a>
                 </div>
 
@@ -387,17 +379,7 @@ const CareersSection = () => {
             >
               <span>Load More</span>
 
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                className="h-4 w-4"
-              >
-                <path d="M12 5v14" />
-                <path d="m6 13 6 6 6-6" />
-              </svg>
+              <ExpandMoreIcon className="h-4 w-4" />
             </button>
           </div>
         )}

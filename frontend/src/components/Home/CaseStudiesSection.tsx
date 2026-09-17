@@ -1,3 +1,4 @@
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import operationalCase from "../../assets/casestudies/operationalcase.jpg";
 import homeabout from "../../assets/homeabout.jpg";
 import owenImage from "../../assets/owen.jpeg";
@@ -32,16 +33,17 @@ const CaseStudiesSection = () => {
           <h2
             className="
               mt-8
-              text-5xl
+              text-[34px]
               font-semibold
               leading-[1.08]
               tracking-[-0.04em]
               text-[#001C43]
+              sm:text-4xl
               md:text-[42px]
             "
           >
             Real problems. Real
-            <br />
+            <br className="hidden sm:block" />
             clients. Real results.
           </h2>
         </div>
@@ -80,14 +82,15 @@ const CaseStudiesSection = () => {
             <div
               className="
                 absolute
-                bottom-8
-                left-8
+                bottom-4
+                left-4
                 flex
-                h-[430px]
-                w-[340px]
+                max-h-[calc(100%-2rem)]
+                w-[calc(100%-2rem)]
+                max-w-[440px]
                 flex-col
                 bg-black/55
-                p-8
+                p-5
                 text-white
                 backdrop-blur-[2px]
                 md:bottom-10
@@ -119,6 +122,7 @@ const CaseStudiesSection = () => {
                   leading-[1.15]
                   tracking-[-0.02em]
                   text-white
+                  text-2xl
                   md:text-3xl
                 "
               >
@@ -160,17 +164,7 @@ const CaseStudiesSection = () => {
               >
                 <span>Read Full Story</span>
 
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  className="h-5 w-5"
-                >
-                  <path d="M5 12h14" />
-                  <path d="m13 6 6 6-6 6" />
-                </svg>
+                <ArrowForwardIcon className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -194,11 +188,11 @@ const CaseStudiesSection = () => {
             "
           >
             {/* Client / result information */}
-            <div className="flex items-center gap-4">
+            <div className="flex min-w-0 items-start gap-4">
 
-              <div className="flex -space-x-2">
+              <div className="flex shrink-0 -space-x-2">
                 {/* Owen - outer avatar */}
-                <div className="relative z-10 h-15 w-15 overflow-hidden rounded-full border-2 border-[#E8E0DF]">
+                <div className="relative z-10 h-14 w-14 overflow-hidden rounded-full border-2 border-[#E8E0DF]">
                   <img
                     src={owenImage}
                     alt="Owen"
@@ -207,7 +201,7 @@ const CaseStudiesSection = () => {
                 </div>
 
                 {/* Gift - inner avatar */}
-                <div className="relative h-15 w-15 overflow-hidden rounded-full border-2 border-[#E8E0DF]">
+                <div className="relative h-14 w-14 overflow-hidden rounded-full border-2 border-[#E8E0DF]">
                   <img
                     src={giftImage}
                     alt="Gift"
@@ -219,7 +213,7 @@ const CaseStudiesSection = () => {
               <div>
                 <p
                   className="
-                    text-[14px]
+                    text-[13px]
                     font-semibold
                     text-[#001C43]
                     md:text-[20px]
@@ -232,6 +226,7 @@ const CaseStudiesSection = () => {
                   className="
                     mt-0.5
                     text-[11px]
+                    leading-[1.45]
                     text-[#777777]
                     md:text-[14px]
                   "
@@ -246,7 +241,7 @@ const CaseStudiesSection = () => {
               href="/case-studies"
               className="
                 inline-flex
-                w-fit
+                w-full
                 items-center
                 gap-4
                 rounded-[4px]
@@ -258,23 +253,14 @@ const CaseStudiesSection = () => {
                 text-white
                 transition-all
                 duration-300
+                md:w-fit
                 hover:gap-4
                 hover:bg-[#A8831D]
               "
             >
               <span>View Case Study</span>
 
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                className="h-5 w-5"
-              >
-                <path d="M5 12h14" />
-                <path d="m13 6 6 6-6 6" />
-              </svg>
+              <ArrowForwardIcon className="h-5 w-5" />
             </a>
           </div>
         </div>
@@ -387,17 +373,7 @@ const CaseStudiesSection = () => {
             >
               <span>Learn More About Us</span>
 
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                className="h-5 w-5"
-              >
-                <path d="M5 12h14" />
-                <path d="m13 6 6 6-6 6" />
-              </svg>
+              <ArrowForwardIcon className="h-5 w-5" />
             </a>
           </div>
         </div>

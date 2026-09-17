@@ -1,3 +1,4 @@
+import CheckIcon from "@mui/icons-material/Check";
 import aboutusImage from "../../assets/aboutus.jpg";
 import aboutImage from "../../assets/about.jpg";
 import aboutussImage from "../../assets/aboutuss.jpg";
@@ -285,16 +286,7 @@ const AboutUs = () => {
                         bg-[#C9A227]
                       "
                     >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="white"
-                        strokeWidth="3"
-                        className="h-2.5 w-2.5"
-                      >
-                        <path d="m5 12 4 4L19 6" />
-                      </svg>
+                      <CheckIcon className="h-2.5 w-2.5" />
                     </span>
 
                     <p className="text-[13px] leading-[1.5] text-[#62676B] md:text-[14px]">
@@ -319,16 +311,7 @@ const AboutUs = () => {
                         bg-[#C9A227]
                       "
                     >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="white"
-                        strokeWidth="3"
-                        className="h-2.5 w-2.5"
-                      >
-                        <path d="m5 12 4 4L19 6" />
-                      </svg>
+                      <CheckIcon className="h-2.5 w-2.5" />
                     </span>
 
                     <p className="text-[13px] leading-[1.5] text-[#62676B] md:text-[14px]">
@@ -353,16 +336,7 @@ const AboutUs = () => {
                         bg-[#C9A227]
                       "
                     >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="white"
-                        strokeWidth="3"
-                        className="h-2.5 w-2.5"
-                      >
-                        <path d="m5 12 4 4L19 6" />
-                      </svg>
+                      <CheckIcon className="h-2.5 w-2.5" />
                     </span>
 
                     <p className="text-[13px] leading-[1.5] text-[#62676B] md:text-[14px]">
@@ -387,16 +361,7 @@ const AboutUs = () => {
                         bg-[#C9A227]
                       "
                     >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="white"
-                        strokeWidth="3"
-                        className="h-2.5 w-2.5"
-                      >
-                        <path d="m5 12 4 4L19 6" />
-                      </svg>
+                      <CheckIcon className="h-2.5 w-2.5" />
                     </span>
 
                     <p className="text-[13px] leading-[1.5] text-[#62676B] md:text-[14px]">

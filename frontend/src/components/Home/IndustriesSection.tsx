@@ -1,3 +1,4 @@
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 const industries = [
   {
     title: "Fintech",
@@ -5,9 +6,9 @@ const industries = [
       "Strategic HR and business support for fast-moving financial technology businesses.",
   },
   {
-    title: "Lending",
+    title: "Manufacturing",
     description:
-      "People, compensation, governance, and organizational solutions for lending businesses.",
+      "People, operations, process, and organizational solutions tailored to manufacturing businesses.",
   },
   {
     title: "Real Estate",
@@ -20,9 +21,9 @@ const industries = [
       "Scalable HR and operational frameworks for customer-facing businesses.",
   },
   {
-    title: "Education",
+    title: "NGOs",
     description:
-      "People and organizational solutions designed around the needs of education-focused organizations.",
+      "People, organizational, operational, and governance solutions designed for mission-driven organizations.",
   },
   {
     title: "Holdings",
@@ -128,17 +129,7 @@ const IndustriesSection = () => {
             >
             <span>Explore Our Work</span>
 
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                className="h-5 w-5"
-            >
-                <path d="M5 12h14" />
-                <path d="m13 6 6 6-6 6" />
-            </svg>
+              <ArrowForwardIcon className="h-5 w-5" />
             </a>
 
           </div>

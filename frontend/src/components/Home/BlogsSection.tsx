@@ -37,9 +37,9 @@ const BlogsSection = () => {
             Our Blog
           </span>
 
-          <h2 className="mt-5 text-[34px] font-semibold leading-[1.05] tracking-[-0.04em] text-[#001C43] md:text-[42px]">
+          <h2 className="mt-5 text-[30px] font-semibold leading-[1.08] tracking-[-0.04em] text-[#001C43] sm:text-[34px] md:text-[42px]">
             Insights that help your
-            <br />
+            <br className="hidden sm:block" />
             business move forward.
           </h2>
 

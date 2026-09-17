@@ -1,4 +1,7 @@
 import { useState } from "react";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import AddIcon from "@mui/icons-material/Add";
+import RemoveIcon from "@mui/icons-material/Remove";
 
 interface FAQ {
   question: string;
@@ -149,17 +152,7 @@ const FAQSection = () => {
             >
               <span>Talk to Us</span>
 
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                className="h-3.5 w-3.5"
-              >
-                <path d="M5 12h14" />
-                <path d="m13 6 6 6-6 6" />
-              </svg>
+              <ArrowForwardIcon className="h-3.5 w-3.5" />
             </a>
           </div>
 
@@ -224,7 +217,7 @@ const FAQSection = () => {
                         text-[#C9A227]
                       "
                     >
-                      {isOpen ? "−" : "+"}
+                      {isOpen ? <RemoveIcon className="h-4 w-4" /> : <AddIcon className="h-4 w-4" />}
                     </span>
                   </button>
 

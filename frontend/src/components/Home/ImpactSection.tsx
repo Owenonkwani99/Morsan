@@ -6,7 +6,7 @@ const ImpactSection = () => {
     { value: 100, suffix: "+", label: "Completed Projects" },
     { value: 20, suffix: "+", label: "Industries Supported" },
     { value: 700, suffix: "+", label: "Labour-outsourced staff" },
-    { value: 10, suffix: "", label: "Service lines: HR, Business & Finance" },
+    { value: 3, suffix: "", label: "Service lines: HR, Business & Finance" },
   ];
 
   const [counts, setCounts] = useState(stats.map(() => 0));
